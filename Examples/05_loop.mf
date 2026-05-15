@@ -1,0 +1,12 @@
+# `loop` is offline-capped (default 32 iterations) so it always terminates.
+bpm 160
+instrument :triangle
+
+define hit do
+  play :c5, 0.1
+  sleep 0.25
+end
+
+loop do
+  hit
+end

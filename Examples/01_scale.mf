@@ -1,0 +1,20 @@
+# C major scale
+bpm 120
+instrument :piano
+
+play :c4, 0.4
+sleep 0.5
+play :d4, 0.4
+sleep 0.5
+play :e4, 0.4
+sleep 0.5
+play :f4, 0.4
+sleep 0.5
+play :g4, 0.4
+sleep 0.5
+play :a4, 0.4
+sleep 0.5
+play :b4, 0.4
+sleep 0.5
+play :c5, 0.8
+sleep 1

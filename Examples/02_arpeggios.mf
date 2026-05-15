@@ -1,0 +1,30 @@
+# Arpeggiated chord progression with repeat
+bpm 140
+instrument :lead
+
+define c_arp do
+  play :c4, 0.2
+  sleep 0.25
+  play :e4, 0.2
+  sleep 0.25
+  play :g4, 0.2
+  sleep 0.25
+  play :c5, 0.2
+  sleep 0.25
+end
+
+define g_arp do
+  play :g3, 0.2
+  sleep 0.25
+  play :b3, 0.2
+  sleep 0.25
+  play :d4, 0.2
+  sleep 0.25
+  play :g4, 0.2
+  sleep 0.25
+end
+
+repeat 2 do
+  c_arp
+  g_arp
+end

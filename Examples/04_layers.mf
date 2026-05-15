@@ -1,0 +1,23 @@
+# Chord stab: three notes start at the same beat because no `sleep` between them
+bpm 90
+instrument :saw
+
+play :c3, 1
+play :e3, 1
+play :g3, 1
+sleep 1
+
+play :f3, 1
+play :a3, 1
+play :c4, 1
+sleep 1
+
+play :g3, 1
+play :b3, 1
+play :d4, 1
+sleep 1
+
+play :c3, 1.5
+play :e3, 1.5
+play :g3, 1.5
+sleep 2

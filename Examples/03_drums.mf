@@ -1,0 +1,10 @@
+# Simple drum loop using the noise oscillator as a kick/snare stand-in
+bpm 110
+instrument :noise
+
+repeat 4 do
+  play :kick, 0.05
+  sleep 0.5
+  play :snare, 0.05
+  sleep 0.5
+end
