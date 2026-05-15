@@ -28,7 +28,7 @@ The goal of the work is to design and implement a programming language and a sui
 | Mar 28 – Apr 8    | Creating of Lexer  (`Compiler/Scanner.cs`)                               |
 | Mar 28 – Apr 8    | Creating of AST (`Parser.cs`, `Ast.cs`)    |
 | Apr 8  – Apr 18   | Tree-walking interpreter and MIDI note parsing (`Compiler/Interpreter.cs`) |
-| Apr 18 – Apr 28   | NAudio playback backend — sine synthesis, envelope, normalization          |
+| Apr 18 – Apr 28   | NAudio playback backend — sine synthesis, envelope, normalization (`Audio/Audio.cs`)         |
 | Apr 28 – May 10   | Bugs fixing and optimization                  |
 | Apr 28 – May 10   | Thesis LaTeX documentation                                             |
 
@@ -38,13 +38,11 @@ The goal of the work is to design and implement a programming language and a sui
 | --------------------------------------------------------------------- |
 | Multiple instrument waveforms (square, triangle, sawtooth)            |
 | Real drum samples replacing the current noise-based placeholder       |
-| ADSR envelope replacing the current linear fade in / fade out         |
-| Chords and polyphony at the language level                            |
-| Parameters and variables in `define` blocks                           |
-| Export to WAV and MIDI                                                |
-| Line and column numbers in compiler error messages                    |
-| Syntax highlighting in the WPF editor                                 |
-| Usability study on a set of model musical cases                       |
+| A deeper research of time modeling        |
+| Support for variables and arithmetic expressions                          |
+| Export to WAV and MIDI file formats                         |
+| Syntax highlighting in the WPF editor                                                |
+| Research for potential optimization                    |
 
  
  
